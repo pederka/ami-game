@@ -15,16 +15,11 @@ Written by Peder Aursand, 2017.
 
     cd case_study_1/
 
-- Set up symbolic links:
-
-    ln -s ../ami_game .
-    ln -s ../plot_results.py .
-
 - Run case study:
 
     python case.py
 
-- When finished, plot results:
+- When finished, results are writte to text files. To plot results:
 
     python plot_results.py
 
