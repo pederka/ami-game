@@ -2,6 +2,7 @@ import numpy as np
 import pickle
 import pydot
 import sys
+sys.path.append("..")
 from ami_game.game import ConfidentialityGame
 from ami_game.population import Population
 from ami_game.node import Node
