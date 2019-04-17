@@ -26,6 +26,8 @@ Written by Peder Aursand, 2017.
 This will generate illustrations of the population dynamics and save them as
 pdf files in the case folder.
 
+![Example](./gfx/example.png)
+
 ## How to design your own case:
 
 - Copy the example case to a separate folder:
