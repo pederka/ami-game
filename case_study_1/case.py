@@ -162,4 +162,4 @@ np.savetxt('defenders', defence_profiles)
 np.savetxt('utility', average_utility)
 
 # Save for future continue
-pickle.dump(population, open('population_dump', 'w'))
+pickle.dump(population, open('population_dump', 'wb'))
