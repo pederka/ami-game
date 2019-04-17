@@ -25,12 +25,12 @@ defender_data_type = np.zeros((generations, 4))
 defender_data_level = np.zeros((generations, 4))
 
 for i in range(0, attacker_data.shape[1]):
-    attacker_data_type[:, type_data[i, 0]] += attacker_data[:, i]
-    attacker_data_level[:, type_data[i, 1]] += attacker_data[:, i]
+    attacker_data_type[:, int(type_data[i, 0])] += attacker_data[:, i]
+    attacker_data_level[:, int(type_data[i, 1])] += attacker_data[:, i]
 
 for i in range(0, defender_data.shape[1]):
-    defender_data_type[:, type_data[i, 0]] += defender_data[:, i]
-    defender_data_level[:, type_data[i, 1]] += defender_data[:, i]
+    defender_data_type[:, int(type_data[i, 0])] += defender_data[:, i]
+    defender_data_level[:, int(type_data[i, 1])] += defender_data[:, i]
 
 # Utility evolution
 plt.figure(3)
