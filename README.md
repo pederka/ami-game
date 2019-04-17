@@ -21,7 +21,7 @@ Written by Peder Aursand, 2017.
 
 - When finished, results are writte to text files. To plot results:
 
-    python plot_results.py
+    python ../plot_results.py
 
 This will generate illustrations of the population dynamics and save them as
 pdf files in the case folder.
