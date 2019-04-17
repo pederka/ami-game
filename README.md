@@ -4,7 +4,7 @@ Code for simulating a evolutionary game in an Advanced Metering Infrastructure. 
 
 Written by Peder Aursand, 2017.
 
-# Dependencies:
+## Dependencies:
 - numpy
 - pickle
 - matplotlib
